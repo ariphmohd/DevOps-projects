@@ -1,9 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0" version="26.2.14">
   <diagram name="Page-1" id="Y0w443pPXZysNKj4dOAN">
-    <mxGraphModel>
+    <mxGraphModel dx="1505" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ax6dvV8bVNOTmQKT_gb2-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="710" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="ax6dvV8bVNOTmQKT_gb2-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="320" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ax6dvV8bVNOTmQKT_gb2-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="621" y="540" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ax6dvV8bVNOTmQKT_gb2-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="80" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="VPC" placeholders="1" name="Variable" id="ax6dvV8bVNOTmQKT_gb2-6">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="340" y="110" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ax6dvV8bVNOTmQKT_gb2-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_load_balancing;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="420" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ax6dvV8bVNOTmQKT_gb2-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1" source="ax6dvV8bVNOTmQKT_gb2-8" target="ax6dvV8bVNOTmQKT_gb2-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="510" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ax6dvV8bVNOTmQKT_gb2-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1" target="ax6dvV8bVNOTmQKT_gb2-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="480" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
